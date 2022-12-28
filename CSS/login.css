@@ -1,0 +1,82 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*FUNDO GRADIENTE*/
+body {
+	background: linear-gradient(-45deg, #2a8c4a,#00ff40,#9bfab0,#d0fdd7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.btn-primary {
+    background: #009059;
+    color: #fff;
+    width: 6rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #009059;
+    border-color: #009059;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #006b42;
+    border-color: #006b42;
+}
+
+.container{
+    width: 30%;
+    max-width: 30%;
+    margin: 0 auto 20px;
+    margin-top: -2rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px #fff (0,0,0,0.2);
+    border-radius: 6px;
+    background-color: #fff;
+    height: 30%;
+}
+
+img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -5rem;
+
+}
+
+main h2 {
+    font-weight: 600;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 23%;
+    font-size: 2rem;
+}
+
+main h2::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 2rem;
+    bottom: 3px;
+    left: 9.7rem;
+    border-radius: 8px;
+    background: linear-gradient(45deg,  #2a8c4a,#00ff40);
+}
+
+.esq-senha{
+    margin-left: 5rem;
+}
